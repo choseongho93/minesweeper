@@ -1,0 +1,28 @@
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 2px solid #ddd;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background: #828282;
+    color:#828282;
+}
+
+td.opened {
+    background: #fff;
+}
+
+td.flag {
+    background: pink;
+}
+
+td.question {
+    background: aqua;
+}
+
+input {
+    max-width: 80px;
+}
