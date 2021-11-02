@@ -188,12 +188,8 @@ function setStart() {
   // 지뢰 설치 
   for (let k = 0; k < mixedNum.length; k++) {
     let col = Math.floor(mixedNum[k] / ver);
-    let row = mixedNum[k] % ver;
-    // console.log(col, row);
-
-    tbody.children[col].children[row].textContent = 'X';
-
-    dataSet[col][row] = codeTable.mine;
+    let row = mixedNum[k] % ver; 
+    tbody.children[col].children[row].textContent = 'X'; // 지뢰
+    dataSet[col][row] = codeTable.mine; // 각 사각형에 지뢰수만큼 지뢰 설치
   }
-  // console.log(dataSet);
 }
