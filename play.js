@@ -12,7 +12,7 @@ const codeTable = {
   mineFlag: -4, // 깃발로 지뢰 막음
   questionMine: -5, // 지뢰인 자리에 물음표
   mine: 1, // 지뢰
-  ready: 0 // 준비 (클릭전)
+  ready: 0 // 준비 (클릭전).
 };
 
 // 실행 버튼 클릭 
